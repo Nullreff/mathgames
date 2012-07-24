@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<html>
+    <head>
+        <title>Matrix Solver</title>
+        <script type="text/javascript" src="scripts/jquery.js"></script>
+        <script type="text/javascript" src="scripts/game.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/default.css"/>
+    </head>
+    <body>
+        <div id="help">
+            <h3>
+                <a onclick="$('#helpcont').toggle();">Click For Help</a>
+            </h3>
+            <div id="helpcont" style="display:none;">
+                <p>
+                    Ever wonder how fast you could get a matrix into reduced row echelon form?  
+                    Well now you can practice!  Use the simple commands below to modify the matrix 
+                    to the right.  Brackets [ ] indicate a key on the keyboard.
+                </p>
+                <p>
+                    Use [r], [f] and [v] to select the different rows of the matrix.<br/>
+                    Use [a] to add, [s] to subtract and [w] to swap.  Select a row, hit [a], [s] 
+                    or [w] and then select another row.<br/> Use [x] to multiply and [d] to 
+                    divide.  Select a row, hit [x] or [d] then hit [2]-[9] to multiply or divide.  
+                    Hit [1] to change the sign. 
+                </p>
+            </div>
+        </div>
+        <div id="midContainer">
+            <h2>Matrix Solver</h2>
+            <div id="matrix">
+        </div>
+        <div id="mod">
+            <img id="plusImg" src="images/plus.png" alt="Add"/>
+            <img id="minusImg" src="images/minus.png" alt="Subtract"/>
+            <img id="swapImg" src="images/swap.png" alt="Swap"/>
+            <br/>
+            <img id="multiplyImg" src="images/multiply.png" alt="Multiply"/>
+            <img id="divideImg" src="images/divide.png" alt="Divide"/>
+            <img id="undoImg" src="images/undo.png" alt="Undo"/>
+          </div>
+        </div>
+    </body>
+</html>

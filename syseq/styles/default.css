@@ -1,0 +1,65 @@
+body {
+	background-color: lightgray;
+	font-size: 16px;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+a {
+	cursor: pointer
+}
+
+#mod img {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+}
+
+/*
+ * Matrix styling
+ */
+#matrix {
+	border: 3px black;
+	border-style: none solid none solid;
+	margin: 30px;
+	font-size: 30px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#matrix div label {
+	margin: 15px;
+}
+
+/*
+ * Selector
+ */
+ .selected {
+	background-color: red;
+ }
+
+#midContainer {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+	background-color: lightblue;
+	
+	-moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#help {
+	float: left;
+	width: 300px;
+}
+
+.clear {
+	clear: both;
+}
